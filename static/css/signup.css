@@ -1,0 +1,64 @@
+
+
+#container {
+    width: 190px;
+    margin: 0 auto;
+}
+
+form {
+    position: relative;
+}
+
+
+.text-input {
+    margin: 20px 0px 20px 0px;
+    width: 250px;
+    height: 30px;
+    border: 0.5px solid #00D8FF;
+
+}
+
+.title {
+    margin: 130px 0px 100px 30px;
+    font-size: 40px;
+    text-align: center;
+    color: #3E3E3E;
+}
+
+label {
+    font-size: large;
+    color: #0090B7;
+}
+
+.login-button {
+    margin: 25px 0px 100px 0px;
+    width: 260px;
+    height: 35px;
+    background-color: #ffffff;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    color: #0090B7;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: skyblue;
+    color: white;
+}
+
+
+.signup-button {
+    margin-top: 35px;
+    width: 260px;
+    height: 35px;
+    background-color: #ffffff;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    color: #0090B7;
+    cursor: pointer;
+}
+
+.signup-button:hover {
+    background-color: skyblue;
+    color: white;
+}
