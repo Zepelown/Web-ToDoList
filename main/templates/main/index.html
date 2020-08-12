@@ -1,11 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <p>메인 페이지</p>
-</body>
-</html>
+{% extends "main_base.html" %}
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/reset.css' %}">
+<link rel="stylesheet" href="{% static 'css/index.css' %}">
+
+{% endblock head %}
+
+
+{% block contents %}
+<div id="container">
+    <div id="content">
+        <img src="/static/img/check.png" class="checkcicle" alt="체크박스">
+        <p class="main-content"><span>"</span> 할일을 체계적으로 관리해 보세요.<span>"</span></p>
+    </div>
+</div>
+{% endblock contents %}
+
+       
+ 

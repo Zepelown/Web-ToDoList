@@ -1,0 +1,59 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/main_base.css' %}">
+    <link rel="stylesheet" href="{% static 'css/reset.css' %}">
+    {% block head %}
+  
+    {% endblock head %}
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+            <a href=""class="title">
+                <p class="main-title">Web</p>
+                <p class="main-title">To do List</p>
+            </a>
+            <div class="info">
+                <img class="profile_photo" src="/static/img/profile_photo.png" alt="기본 프로필 사진">
+                <p class="name">서지영 님</p>
+                <p class="d-day">D - 10</p>
+            </div>
+            <a class="log-out" href="#">로그아웃</a>
+        </header>
+        <nav class="nav">
+            <ul class="ul">
+                <a href="#">
+                    <li class="li">
+                        <p>달력</p>
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="li">
+                        <p>할일</p>
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="li">
+                        <p>명언</p>
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="li">
+                        <p>내정보</p>
+                    </li>
+                </a>
+            </ul>
+        </nav>
+        {% block contents %}
+        {% endblock contents %}
+    </div>
+</body>
+
+</html>
