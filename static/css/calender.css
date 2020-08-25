@@ -1,0 +1,53 @@
+.prev-next-calender {
+    position: relative;
+    left: 34%;
+    top: 40px;
+}
+
+.prev {
+    width: 0px;
+    height: 0px;
+    border-top: 15px solid transparent;
+    border-right: 30px solid #59B0CB;
+    border-bottom: 15px solid transparent;
+}
+
+.next {
+    width: 0px;
+    height: 0px;
+    border-top: 15px solid transparent;
+    border-left: 30px solid #59B0CB;
+    border-bottom: 15px solid transparent;
+}
+
+
+.year-month {
+    text-align: center;
+
+}
+
+#tbCalendarYM {
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    left: 30%;
+    top: 35px;    
+}
+
+table {
+    position: relative;
+    top: 150px;
+    left: 220px;
+}
+
+.day {
+    background-color: #CAF2FF;
+    padding: 25px 60px 25px 60px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+td {
+    align: center;
+    padding: 10px 10px 80px 20px;
+}

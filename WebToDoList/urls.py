@@ -20,6 +20,7 @@ from main import views as main_views
 
 urlpatterns = [
     path('', main_views.index_page),
+    path('calender', main_views.calender_page),
     path('admin/', admin.site.urls),
     path('login/', account_views.login_page),
     path('signup/', account_views.signup_page)

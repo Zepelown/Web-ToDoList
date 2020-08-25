@@ -4,3 +4,6 @@ from django.shortcuts import render
 
 def index_page(request):
     return render(request, 'main/index.html')
+
+def calender_page(request):
+    return render(request, 'main/calender.html')
