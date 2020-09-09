@@ -4,7 +4,6 @@
 {% block head %}
 <link rel="stylesheet" href="{% static 'css/reset.css' %}">
 <link rel="stylesheet" href="{% static 'css/calender.css' %}">
-<script src="{% static 'js/calender.js' %}"></script>
 
 {% endblock head %}
 
@@ -39,6 +38,8 @@
     </tr>
 
 </table>
+
+<script src="{% static 'js/calender.js' %}"></script>
 <script language="javascript" type="text/javascript">
     buildCalendar();//
 </script>

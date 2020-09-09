@@ -1,12 +1,36 @@
 
+@keyframes text {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0.25;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    75% {
+        opacity: 0.75;
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
 .main-content {
     font-size: 40px;
     position: relative;
     left: 395px;
     top: 235px;
     color: #4C4C4C;
-
+    animation: text 1.5s ease-in;
 }
+
+
 
 .main-content span {
     font-size: 80px;
@@ -17,4 +41,5 @@
     position: relative;
     top: 200px;
     left: 650px;
+    animation: text 1.5s ease-in;
 }

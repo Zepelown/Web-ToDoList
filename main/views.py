@@ -7,3 +7,9 @@ def index_page(request):
 
 def calender_page(request):
     return render(request, 'main/calender.html')
+
+def todo_page(request):
+    return render(request, 'main/todo.html')
+
+def text_page(request):
+    return render(request, 'main/text.html')

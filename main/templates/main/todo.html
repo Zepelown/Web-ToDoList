@@ -1,0 +1,51 @@
+{% extends 'main_base.html' %}
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/reset.css' %}">
+<link rel="stylesheet" href="{% static 'css/todo.css' %}">
+{% endblock %}
+
+{% block contents %}
+<div id="container">
+    <div class="contents">
+        <div class="top-nav"><p class="todo-date">▶ 2020. 09. 05</p></div>
+        <div class="todo-list">
+            <input type="checkbox">
+            <ul class="todo">자바스크립트 공부
+                <li><span>-</span> 3장 복습</li>
+                <li><span>-</span> 예제 안보고 만들어보기</li>
+            </ul>
+        </div>
+    </div>
+    <div class="contents">
+        <div class="top-nav"><p class="todo-date">▶ 2020. 09. 06</p></div>
+        <div class="todo-list">
+            <input type="checkbox">
+            <ul class="todo">자바스크립트 공부
+                <li><span>-</span> 4장 공부</li>
+                <li><span>-</span> 예제 안보고 만들어보기</li>
+                <li><span>-</span> 퀴즈 풀기</li>
+            </ul>
+        </div>
+        <div class="todo-list">
+            <input type="checkbox">
+            <ul class="todo">자바스크립트 공부
+                <li><span>-</span> 5장 공부</li>
+                <li><span>-</span> 예제 안보고 만들어보기</li>
+                <li><span>-</span> 5장 문법 정리, 익히기</li>
+            </ul>
+        </div>
+    </div>
+    <div class="contents">
+        <div class="top-nav"><p class="todo-date">▶ 2020. 09. 07</p></div>
+        <div class="todo-list">
+            <input type="checkbox">
+            <ul class="todo">자바스크립트 공부
+                <li><span>-</span> 6장 공부</li>
+                <li><span>-</span> 예제 안보고 만들어보기</li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}

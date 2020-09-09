@@ -1,0 +1,19 @@
+{% extends "main_base.html" %}
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/reset.css' %}">
+<link rel="stylesheet" href="{% static 'css/text.css' %}">
+
+{% endblock head %}
+
+{% block contents %}
+<div id="container">
+    <div id="contents">
+        <p class="text-field"><br>새로고침 버튼을 눌러 <br> 명언을 불러와 보세요.</p>
+    </div>
+    <img class="randomBtn" src="{% static 'img/retext.png' %}" onclick="randomHandler()" alt="다른 명언">
+</div>
+
+<script src="{% static 'js/text.js' %}"></script>
+{% endblock contents %}
